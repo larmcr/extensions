@@ -8,6 +8,7 @@ Remove popups from GN sites:
 
 * nacion.com
 * elfinancierocr.com
+* yuplon.com
 
 ### Change Log
 
