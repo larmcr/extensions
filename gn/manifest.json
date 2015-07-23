@@ -2,11 +2,11 @@
   "manifest_version": 2,
   "name": "GN Popup Removal",
   "description": "Remove popups from GN sites",
-  "version": "0.2",
+  "version": "0.3",
   "author": "Luis Rojas",
 
-  "icons": { 
-    "128": "icon.png" 
+  "icons": {
+    "128": "icon.png"
   },
 
   "content_scripts": [
@@ -17,7 +17,7 @@
           "http://www.elfinancierocr.com/*"
         ],
 
-        "js": ["minified.js", "main.js"]
+        "js": ["minified-web.js", "main.js"]
     }
   ]
 }
