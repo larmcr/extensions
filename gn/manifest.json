@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "GN Popup Removal",
   "description": "Remove popups from GN sites",
-  "version": "0.3",
+  "version": "0.4",
   "author": "Luis Rojas",
 
   "icons": {
@@ -12,9 +12,12 @@
   "content_scripts": [
     {
         "matches": [
-          "http://www.yuplon.com/*",
+          "http://www.aldia.cr/*",
+          "http://www.elfinancierocr.com/*",
+          "http://www.lateja.co.cr/*",
           "http://www.nacion.com/*",
-          "http://www.elfinancierocr.com/*"
+          "http://www.revistaperfil.com/*",
+          "http://www.yuplon.com/*"
         ],
 
         "js": ["minified-web.js", "main.js"]
