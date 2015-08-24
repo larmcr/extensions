@@ -12,11 +12,18 @@ It uses [Minified JavaScript Library](http://minifiedjs.com) to select DOM's ite
 
 Currently, it removes popups in these sites:
 
-* nacion.com
+* aldia.cr
 * elfinancierocr.com
+* lateja.co.cr
+* nacion.com
+* revistaperfil.com
 * yuplon.com
 
 ### Change Log
+
+#### 0.4
+
+* Add lateja.co.cr, revistaperfil.com and aldia.cr
 
 #### 0.3
 
