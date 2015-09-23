@@ -21,6 +21,10 @@ Currently, it removes popups in these sites:
 
 ### Change Log
 
+#### 0.5
+
+* Remove popup about subscription
+
 #### 0.4
 
 * Add lateja.co.cr, revistaperfil.com and aldia.cr

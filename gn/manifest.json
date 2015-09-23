@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "GN Popup Removal",
   "description": "Remove popups from GN sites",
-  "version": "0.4",
+  "version": "0.5",
   "author": "Luis Rojas",
 
   "icons": {
