@@ -4,7 +4,7 @@ Useful extensions for Chrome.
 
 ## GN
 
-Remove popups from GN sites.
+Remove popups and allow to watch the embedded videos of GN sites.
 
 Based on [Removedor de Popups](https://github.com/jonvargas/chrome-nacioncom-removal) project.
 
@@ -20,6 +20,10 @@ Currently, it removes popups in these sites:
 * yuplon.com
 
 ### Change Log
+
+#### 1.0
+
+* Allow to watch the embedded videos
 
 #### 0.5
 

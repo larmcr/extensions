@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "GN Popup Removal",
-  "description": "Remove popups from GN sites",
-  "version": "0.5",
+  "description": "Remove popups and allow to watch the embedded videos of GN sites",
+  "version": "1.0",
   "author": "Luis Rojas",
 
   "icons": {
