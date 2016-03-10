@@ -52,7 +52,16 @@ Currently, it removes popups in these sites:
 
 ## RPL
 
-* Watch live streams from RPL site
+Watch live streams from RPL site.
+
+It works on repretel.com site.
+
+Currently, it replaces these channels:
+
+- 2
+- 4
+- 6
+- 11
 
 ### Change Log
 
