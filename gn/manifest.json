@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "GN Popup Removal",
   "description": "Remove popups and allow to watch the embedded videos of GN sites",
-  "version": "1.0",
+  "version": "1.1",
   "author": "Luis Rojas",
 
   "icons": {
@@ -11,7 +11,7 @@
 
   "content_scripts": [
     {
-        "matches": [
+      "matches": [
           "http://www.aldia.cr/*",
           "http://www.elfinancierocr.com/*",
           "http://www.lateja.co.cr/*",
@@ -20,7 +20,7 @@
           "http://www.yuplon.com/*"
         ],
 
-        "js": ["minified-web.js", "main.js"]
+      "js": ["minified-web.js", "main.js"]
     }
   ]
 }

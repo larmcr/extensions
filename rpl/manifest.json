@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "RPL ",
+  "description": "Watch live streams from RPL site",
+  "version": "0.1",
+  "author": "Luis Rojas",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+          "http://www.repretel.com/*"
+        ],
+
+      "js": ["minified-web.js", "main.js"]
+    }
+  ],
+
+  "permissions": [
+    "http://cdn.repretel.com/"
+  ]
+}

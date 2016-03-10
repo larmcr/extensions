@@ -21,6 +21,10 @@ Currently, it removes popups in these sites:
 
 ### Change Log
 
+#### 1.1
+
+* Clean source code
+
 #### 1.0
 
 * Allow to watch the embedded videos
@@ -45,3 +49,13 @@ Currently, it removes popups in these sites:
 #### 0.1
 
 * Add nacion.com and elfinancierocr.com
+
+## RPL
+
+* Watch live streams from RPL site
+
+### Change Log
+
+#### 0.1
+
+* Replace URLs
