@@ -20,7 +20,8 @@ function setUrls(channels) {
     var url = channels[channel];
     var href = '/envivo-' + channel;
     var element = $('a[href="' + href + '"]');
-    element.set('href', url);
+    element.set('@href', url);
+    element.set('@target', '_blank');
   }
 }
 
@@ -29,12 +30,14 @@ function parseJS(js) {
   setUrls(channels);
 }
 
+function showError(status, statusText, responseText) {
+  console.error('ERROR ->', status, statusText, responseText);
+}
+
 function requestUrl() {
   $.request('get', 'http://cdn.repretel.com/sites/common/js/default.js')
     .then(parseJS)
-    .error(function(status, statusText, responseText) {
-      console.error('ERROR ->', status, statusText, responseText);
-    });
+    .error(showError);
 }
 
 $(function() {
