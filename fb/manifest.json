@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "FB Popup Removal",
+  "description": "Remove popups from FB sites",
+  "version": "1.0",
+  "author": "Luis Rojas",
+
+  "icons": {
+    "128": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+          "https://www.facebook.com/*"
+        ],
+
+      "js": ["minified-web.js", "main.js"]
+    }
+  ]
+}

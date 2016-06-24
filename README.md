@@ -2,13 +2,13 @@
 
 Useful extensions for Chrome.
 
+All of them use [Minified JavaScript Library](http://minifiedjs.com) to select DOM's items.
+
 ## GN
 
 Remove popups and allow to watch the embedded videos of GN sites.
 
 Based on [Removedor de Popups](https://github.com/jonvargas/chrome-nacioncom-removal) project.
-
-It uses [Minified JavaScript Library](http://minifiedjs.com) to select DOM's items.
 
 Currently, it removes popups in these sites:
 
@@ -74,3 +74,11 @@ Currently, it replaces these channels:
 #### 0.1
 
 * Replace URLs
+
+## FB
+
+Remove popups of FB sites.
+
+#### 1.0
+
+* Remove popup that asks to login
